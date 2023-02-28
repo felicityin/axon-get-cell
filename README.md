@@ -1,7 +1,6 @@
 # Start Axon
 ```
-git clone git@github.com:felicityin/axon.git
-git checkout get-cell
+git clone git@github.com:axonweb3/axon.git
 cargo build
 ./target/debug/axon -c devtools/chain/config.toml -g devtools/chain/genesis_single_node.json
 ```
