@@ -30,7 +30,7 @@ contract CellProviderContract {
     Cell cell;
 
     function testGetCell(bytes32 txHash, uint32 index) public {
-        cell = CellProvider(address(0xf0)).getCell(txHash, index);
+        cell = CellProvider(address(0x0103)).getCell(txHash, index);
         if (cell.exists) {
             emit GetCellEvent(cell);
         } else {
